@@ -1,0 +1,151 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0px;
+}
+.header1{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(70, 65, 65, 0.8);
+    font-size: 100%;
+    
+}
+.header1 a{
+    text-decoration: none;
+    color: lightgray;
+}
+.leftdiv :hover{
+    text-decoration: underline;
+    font-size: 130%;
+}
+.rightdiv :hover{
+    text-decoration: underline;
+    font-size: 130%;
+}
+.leftdiv{
+    width: 50%;
+}
+.rightdiv{
+    width: 50%;
+}
+.header2{
+    display: flex;
+    background-color: rgba(95, 90, 89, 0.7);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header2 a{
+    text-decoration: none;
+    color:lightgray;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.header2 a:hover{
+    text-decoration: underline;
+}
+.background1{
+    background-image: url("../jpg/Husqvarna-592XP_585_Kampagnenfoto_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    width: 100%;
+}
+.schleitna{
+    display: flex;
+    height: 785px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 70px;
+    
+}
+.schleitnap{
+    border: 3px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(70, 65, 65, 0.5);
+}
+.willkommen{
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.willkommenheader1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.willkommenheader2{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.willkommenheader3{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.willkommenheader4{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.anfrage{
+    border: 3px solid lightgrey;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(70, 65, 65, 0.5);
+    border-radius: 15px;
+    width: 100%;
+}
+.willkommen a{
+    text-decoration: none;
+    color: white;
+}
+.angebote{
+    background-image: url("../jpg/Motorsäge_nahe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+.angebote1{
+    height: 100%;
+    background-color: rgba(70, 65, 65, 0.7);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.leftdivangebote{
+    height: 40%;
+}
+.ausruestungheader{
+    display: flex;
+    justify-content: center;
+}
+.ausruestungsdiv{
+    height: 200px;
+    width: 30%;
+    background-color: black;
+    margin: 5%;
+}
+.ausruestung{
+    display: flex;
+    flex-direction: row;
+}
+.Motorsägentext{
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
