@@ -10,6 +10,10 @@
     text-align: center;
     background-color: rgba(70, 65, 65, 0.8);
     font-size: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     
 }
 .header1 a{
@@ -31,11 +35,16 @@
     width: 50%;
 }
 .header2{
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     background-color: rgba(95, 90, 89, 0.7);
     height: 100%;
+    width: max-content;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .header2 a{
     text-decoration: none;
@@ -51,8 +60,8 @@
     background-image: url("../jpg/Husqvarna-592XP_585_Kampagnenfoto_2.jpg");
     background-size: cover;
     background-position: center;
-    height:100%;
-    width: 100%;
+    height:1000px;
+    
 }
 .schleitna{
     display: flex;
@@ -123,6 +132,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
 
     
 }
@@ -132,14 +142,20 @@
 .ausruestungheader{
     display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 .ausruestungsdiv{
-    height: 200px;
-    width: 30%;
+    height: 280px;
+    width: 20%;
     background-color: black;
     margin: 5%;
 }
 .ausruestung{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.traktoren{
     display: flex;
     flex-direction: row;
 }
@@ -148,4 +164,40 @@
     font-weight: 500;
     display: flex;
     justify-content: center;
+}
+.traktoren{
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.containerangebote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Hackguterzeugung{
+    padding: 20px;
+    background-color: rgba(95, 90, 89, 0.7);
+    padding-bottom: 30px; 
+    margin: 60px; 
+    color: white;
+    width: 650px;  
+}
+.Extrembaumfaellung{
+    padding: 20px;
+    background-color: rgba(95, 90, 89, 0.7);
+    padding-bottom: 30px; 
+    margin: 60px; 
+    color: white;
+    width: 650px;  
+}
+.gesundeforstwirtschaft{
+    padding: 20px;
+    background-color: rgba(95, 90, 89, 0.7);
+    padding-bottom: 30px; 
+    margin: 60px; 
+    color: white;
+    width: 650px; 
 }
